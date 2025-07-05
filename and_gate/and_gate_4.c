@@ -1,12 +1,16 @@
 #include<stdio.h>
 int main()
 {
-int a,s,d,f,stmt_1,stmt_2;
-stmt_1=d<f;
-printf("output of stmt_1:%d\n",stmt_1);
-stmt_2=s>a;
-printf("output of stmt_2:%d\n",stmt_2);
-printf("stmt_1 && stmt_2 :%d",stmt_1 && stmt_2);
-return 0;
+	int a=3;
+	int b=4;
+	int c=67;
+	int d=5;
+	int stmt_1,stmt_2;
+	stmt_1=a<b;
+	printf("output of stmt_1:%d\n",stmt_1);
+	stmt_2=c>d;
+	printf("output of stmt_2:%d\n",stmt_2);
+	printf("stmt_1 && stmt_2 :%d",stmt_1 && stmt_2);
+	return 0;
 }
 
